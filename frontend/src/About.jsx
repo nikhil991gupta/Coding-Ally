@@ -227,14 +227,16 @@
 
 // export default About;
 import { FiInstagram, FiGithub, FiLinkedin } from "react-icons/fi";
+import Navbar from "./components/Navbar";
 //import isn from "./assets/ishan.png";
-import aman from "./assets/amandp.jpg"
+//import aman from "./assets/amandp.jpg"
 //import sumit from "./assets/sumitdp.png"
 //import niki from "./assets/nik.jpg"
 
 function Team() {
   return (
     <section className="bg-white">
+      <Navbar/>
       <div className="h-[32rem] bg-purple-50 ">
         <div className="container px-6 py-10 mx-auto">
           <h1 className="text-4xl font-bold text-center text-gray-800 capitalize lg:text-3xl ">
@@ -258,12 +260,12 @@ function Team() {
           <div className="flex flex-col items-center p-4 border sm:p-6 rounded-xl dark:border-gray-700">
             <img
               className="object-cover w-full rounded-xl aspect-square"
-              src={aman}
+             // src={aman}
               alt=""
             />
 
             <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize">
-              Aman Verma
+              Eren Yeager
             </h1>
 
             <div className="flex mt-3 -mx-2">

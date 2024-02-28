@@ -68,7 +68,7 @@ const Products = () => {
             />
             <div className="px-4 py-3 w-72">
               <span className="text-gray-400 mr-3 uppercase text-xs">
-                muscle blaze
+                MERN
               </span>
               <p className="text-lg font-bold text-black truncate block capitalize">
                 Creatine Monohydrate 100g
@@ -94,10 +94,10 @@ const Products = () => {
             />
             <div className="px-4 py-3 w-72">
               <span className="text-gray-400 mr-3 uppercase text-xs">
-                NAKPRO
-              </span>
+
+JAVA              </span>
               <p className="text-lg font-bold text-black truncate block capitalize">
-                PLATINUM Whey Protein
+PURA JABAA
               </p>
               <div className="flex items-center">
                 <p className="text-lg font-semibold text-black cursor-auto my-3">
@@ -122,10 +122,9 @@ const Products = () => {
             />
             <div className="px-4 py-3 w-72">
               <span className="text-gray-400 mr-3 uppercase text-xs">
-                BON ISO WHEY
-              </span>
+FULL STACK              </span>
               <p className="text-lg font-bold text-black truncate block capitalize">
-                Isolate Whey Protein
+WEB DEV
               </p>
               <div className="flex items-center">
                 <p className="text-lg font-semibold text-black cursor-auto my-3">
@@ -150,10 +149,10 @@ const Products = () => {
             />
             <div className="px-4 py-3 w-72">
               <span className="text-gray-400 mr-3 uppercase text-xs">
-                peak performance nutrition
+MAUJ MASTI
               </span>
               <p className="text-lg font-bold text-black truncate block capitalize">
-                Enriched Whey Protein 24g
+MASTI
               </p>
               <div className="flex items-center">
                 <p className="text-lg font-semibold text-black cursor-auto my-3">
@@ -178,10 +177,10 @@ const Products = () => {
             />
             <div className="px-4 py-3 w-72">
               <span className="text-gray-400 mr-3 uppercase text-xs">
-                nutrimusle
+SLEEPY
               </span>
               <p className="text-lg font-bold text-black truncate block capitalize">
-                Massive weight gainer 7 Lbs
+SLEEPY
               </p>
               <div className="flex items-center">
                 <p className="text-lg font-semibold text-black cursor-auto my-3">
