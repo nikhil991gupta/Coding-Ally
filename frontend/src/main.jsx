@@ -9,6 +9,9 @@ import Products from './Products.jsx'
 import MockInterview from './components/MockInterview.jsx'
 import GroupDiscussion from './components/GroupDicussion.jsx'
 import InterviewTips from './components/InterviewTips.jsx'
+import CodeEditor from './components/CodeEditor.jsx'
+
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -32,6 +35,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   </Routes>
   <Routes>
     <Route exact path='/InterviewTips' element={<InterviewTips />}></Route>
+  </Routes>
+  <Routes>
+    <Route exact path='/CodeEditor' element={<CodeEditor />}></Route>
   </Routes>
 
 

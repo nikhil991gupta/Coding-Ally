@@ -1,4 +1,4 @@
-
+import heroimg from '../assets/kk.jpeg'
 const Hero = () => {
   return (
     <div>
@@ -34,7 +34,7 @@ const Hero = () => {
             </div>
             <div className="flex-1 hidden md:block ">
               <img
-                //src={heroImg}
+                src={heroimg}
                 className="max-w-[13rem] ms-60 rotate-6 drop-shadow-2xl scale-125"
               />
             </div>

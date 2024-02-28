@@ -174,6 +174,9 @@ export default () => {
     { title: "Mock Interviews", path: "/MockInterview" },
     { title: "Group Discussions", path: "/GroupDiscussion" },
     { title: "About Us", path: "/About" },
+    { title: "CodeEditor", path: "/CodeEditor" },
+
+
   ];
 
   useEffect(() => {
