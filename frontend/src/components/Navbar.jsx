@@ -175,9 +175,11 @@ export default () => {
     { title: "Group Discussions", path: "/GroupDiscussion" },
     { title: "About Us", path: "/About" },
     { title: "CodeEditor", path: "/CodeEditor" },
+    { title: "Sign In", path: "/SignIn" },
+    { title: "Sign Up", path: "/SignUp" ,isButton: true},
 
 
-  ];
+];
 
   useEffect(() => {
     document.onclick = (e) => {

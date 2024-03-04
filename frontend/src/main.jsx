@@ -10,6 +10,8 @@ import MockInterview from './components/MockInterview.jsx'
 import GroupDiscussion from './components/GroupDicussion.jsx'
 import InterviewTips from './components/InterviewTips.jsx'
 import CodeEditor from './components/CodeEditor.jsx'
+import SignIn from './components/SignIn.jsx'
+import SignUp from './components/SignUp.jsx'
 
 
 
@@ -39,7 +41,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <Routes>
     <Route exact path='/CodeEditor' element={<CodeEditor />}></Route>
   </Routes>
-
+  <Routes>
+    <Route exact path='/SignIn' element={<SignIn />}></Route>
+  </Routes>
+  <Routes>
+    <Route exact path='/SignUp' element={<SignUp />}></Route>
+  </Routes>
 
    <Footer />
 </div>
