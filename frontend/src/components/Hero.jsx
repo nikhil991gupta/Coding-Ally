@@ -13,10 +13,10 @@ const Hero = () => {
               </p>
               <div className="flex items-center gap-x-3 sm:text-sm">
                 <a
-                  href="javascript:void(0)"
+                  href="/Services"
                   className="flex items-center justify-center gap-x-1 py-2 px-4 text-white font-medium bg-gray-800 duration-150 hover:bg-gray-700 active:bg-gray-900 rounded-full md:inline-flex"
                 >
-                  Start Learning
+                  Our Services
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"

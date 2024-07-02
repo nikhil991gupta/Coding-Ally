@@ -83,8 +83,8 @@ const InterviewTips = () => {
   const [questionnaire, setQuestionnaire] = useState({
     fullName: '',
     email: '',
-    graduationYear: '',
-    major: '',
+    Role: '',
+    Company: '',
     tip1: '',
     tip2: '',
     tip3: '',
@@ -106,8 +106,8 @@ const InterviewTips = () => {
     setQuestionnaire({
       fullName: '',
       email: '',
-      graduationYear: '',
-      major: '',
+      Role: '',
+      Company: '',
       tip1: '',
       tip2: '',
       tip3: '',
